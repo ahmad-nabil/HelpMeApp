@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".5"
+        app:srcCompat="@drawable/splash_background" />
+
+    <Button
+        android:id="@+id/userBtn"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#B9000000"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/bungeeregular"
+        android:text="User"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000" />
+
+    <Button
+        android:id="@+id/helperBtn"
+        style="Widget.App.ButtonStyle"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="20dp"
+        android:background="#CDAE1212"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="@font/bungeeregular"
+        android:text="Helper"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000" />
+
+    <TextView
+        android:id="@+id/titleApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungeeregular"
+        android:gravity="center"
+        android:text="Help Me APP"
+        android:textColor="#8A0404"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/bungeeregular"
+        android:gravity="center"
+        android:text="Chosse your account"
+        android:textColor="#8A0404"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/bungeeregular"
+        android:gravity="center"
+        android:selectAllOnFocus="false"
+        android:text="Your car in the right hands"
+        android:textColor="#8A0404"
+        android:textSize="20sp" />
+
+</RelativeLayout>

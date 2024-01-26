@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login">
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:alpha=".5"
+      app:srcCompat="@drawable/splash_background" />
+
+  <TextView
+      android:id="@+id/titleApp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:fontFamily="@font/bungeeregular"
+      android:gravity="center"
+      android:text="Help Me APP"
+      android:textColor="#8A0404"
+      android:textSize="34sp" />
+
+  <EditText
+      android:id="@+id/EmailLogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/PassLogin"
+      android:layout_centerInParent="false"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="20dp"
+      android:background="#74E7E857"
+      android:ems="15"
+      android:fontFamily="@font/bungeeregular"
+      android:gravity="center"
+      android:hint="Email"
+      android:inputType="textEmailAddress"
+      android:textColorHint="#8A0404" />
+
+  <EditText
+      android:id="@+id/PassLogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:background="#74E7E857"
+      android:ems="15"
+      android:fontFamily="@font/bungeeregular"
+      android:gravity="center"
+      android:hint="password"
+      android:inputType="textPassword"
+      android:textColorHint="#8A0404"
+      android:textSize="18sp" />
+
+  <Button
+      android:id="@+id/loginBtn"
+      style="@style/Widget.AppCompat.Button.Borderless"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/PassLogin"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="100dp"
+      android:background="#B4000000"
+      android:fontFamily="@font/bungeeregular"
+      android:text="Login"
+      android:textColor="#FFFFFF" />
+
+  <Button
+      android:id="@+id/signupBtn"
+      style="@style/Widget.AppCompat.Button.Borderless.Colored"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/ForgetpasssBtn"
+      android:layout_centerHorizontal="true"
+      android:fontFamily="@font/bungeeregular"
+      android:text="dont have account! signup"
+      android:textColor="#8A0404" />
+
+  <Button
+      android:id="@+id/ForgetpasssBtn"
+      style="@style/Widget.AppCompat.Button.Borderless"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="50dp"
+      android:fontFamily="@font/bungeeregular"
+      android:text="forget password"
+      android:textColor="#8A0404" />
+
+</RelativeLayout>

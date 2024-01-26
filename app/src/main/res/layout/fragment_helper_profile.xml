@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_profile_helper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:focusable="true"
+    tools:context=".HelperSection.HelperProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ETLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:textAlignment="inherit"
+            app:errorEnabled="false"
+            app:placeholderTextColor="#C31E2E">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/NameHelper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#EBEC80"
+                android:fontFamily="@font/bungeeregular"
+                android:gravity="center|center_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="inherit"
+                android:textColor="#E2FF0808"
+                android:textSize="15sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ETLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ETLayout1"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            app:placeholderTextColor="#C31E2E">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/EmailHelper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EBEC80"
+                android:fontFamily="@font/bungeeregular"
+                android:gravity="center"
+                android:inputType="text|textEmailAddress"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="inherit"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#E2FF0808"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ETLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_below="@id/ETLayout2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            app:passwordToggleEnabled="true"
+            app:placeholderTextColor="#C31E2E">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/PasswordHelper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EBEC80"
+                android:fontFamily="@font/bungeeregular"
+                android:gravity="center"
+                android:inputType="text|textPassword"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:password="true"
+                android:text="Emad"
+                android:textAlignment="inherit"
+                android:textColor="#E2FF0808"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ETLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ETLayout3"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            app:placeholderTextColor="#C31E2E">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TypeExp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EBEC80"
+                android:fontFamily="@font/bungeeregular"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Emad"
+                android:textAlignment="inherit"
+                android:textColor="#E2FF0808"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ETLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ETLayout4"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            app:placeholderTextColor="#C31E2E">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/LevelExP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EBEC80"
+                android:fontFamily="@font/bungeeregular"
+                android:gravity="center"
+                android:importantForAutofill="no"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Emad"
+                android:textAlignment="inherit"
+
+                android:textColor="#E2FF0808"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ETLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ETLayout5"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#E2FF0808"
+            android:textSize="12sp">
+
+            <TextView
+                android:id="@+id/LocationHelper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EBEC80"
+                android:breakStrategy="balanced"
+                android:clickable="true"
+                android:fontFamily="@font/bungeeregular"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Emad"
+
+                android:textAlignment="inherit"
+                android:textColor="#E2FF0808"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ETLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ETLayout6"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Emad"
+            android:textColor="#E2FF0808"
+            android:textSize="18sp"
+            app:placeholderTextColor="#C31E2E">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/PhoneHelper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EBEC80"
+                android:fontFamily="@font/bungeeregular"
+                android:gravity="center"
+                android:inputType="phone"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Emad"
+                android:textAlignment="inherit"
+                android:textColor="#E2FF0808"
+                android:textSize="15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/Saveinfo"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ETLayout7"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/bungeeregular"
+            android:text="Edit"
+            android:textColor="@color/black"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </RelativeLayout>
+</FrameLayout>
